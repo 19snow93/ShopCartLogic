@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#e53e42</color>
+
+    <!--背景颜色-->
+    <color name="toolbar_color">#f8f8f8</color>
+    <color name="background_color">#f6f6f6</color>
+    <color name="edittext_noenter_color">#f5f5f5</color>
+
+    <!--辅助色-->
+    <color name="support_yellow">#f9a340</color>
+    <color name="btn_unselect_color">#f4736e</color>
+
+    <!--分割线-->
+    <color name="splitline_color">#dddddd</color>
+
+    <!--文字-->
+    <color name="notice_text_color">#999999</color>
+    <color name="default_text_color">#666666</color>
+    <color name="main_black_text">#333333</color>
+    <color name="main_red_text">#e53e42</color>
+    <color name="main_white_text">#ffffff</color>
+    <color name="protocol_text">#3C68FE</color>
+
+    <!--图标-->
+    <color name="abate_icon_color">#bbbbbb</color>
+    <color name="default_icon_color">#999999</color>
+    <color name="pressed_icon_color">#e53e42</color>
+
+    <!--CycleViewPager-->
+    <color name="cycle_image_bg">#44222222</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+
+</resources>

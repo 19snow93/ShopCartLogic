@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_shopcart_have"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rlv_shopcart"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                ></android.support.v7.widget.RecyclerView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/main_white_text"
+            android:gravity="center_vertical"
+            android:id="@+id/ll_pay"
+            android:layout_above="@+id/emtryview"
+            >
+
+            <TextView
+                android:id="@+id/tv_shopcart_addselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:drawableLeft="@drawable/shopcart_selected"
+                android:text="全选"
+                android:drawablePadding="@dimen/padding_5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_shopcart_totalprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_10dp"
+                    android:paddingTop="@dimen/padding_10dp"
+                    android:text="总价：¥0"
+                    android:textColor="@color/main_red_text"
+                    android:textSize="@dimen/common_font_size_16"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_shopcart_totalnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_10dp"
+                    android:text="共0件商品"
+                    android:textSize="@dimen/common_font_size_14"
+                    android:paddingBottom="@dimen/padding_10dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_shopcart_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn"
+                android:text="去结算"
+                android:paddingLeft="@dimen/margin_30dp"
+                android:paddingRight="@dimen/margin_30dp"
+                android:paddingTop="@dimen/padding_10dp"
+                android:paddingBottom="@dimen/padding_10dp"
+                android:textColor="@color/main_white_text"
+                android:layout_marginRight="@dimen/margin_10dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/emtryview"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp">
+        </View>
+
+    </RelativeLayout>
+
+</LinearLayout>
